@@ -8,13 +8,13 @@ install-16.sh 设置系统空间为16g(实际没有，系统内置占用2g旁边
 install-32.sh 设置系统空间为32g(实际没有，系统内置占用2g旁边)，其他空间可作为储存空间使用
 # 在按照教程（自行查找）从u盘启动飞牛系统后。不要输入（bash install-to-emmc.sh ）,使用下面脚本
 # 设置系统空间为16g
-curl https://github.com/lezhengqiuyuan/n1/blob/main/install-16.sh
+curl -o install-16.sh https://raw.githubusercontent.com/lezhengqiuyuan/n1/main/install-16.sh
 
 chomd +x install-16.sh
 
 sudo bash install-16.sh
 # 设置系统空间为32g
-curl https://github.com/lezhengqiuyuan/n1/blob/main/install-32.sh
+curl -o install-16.sh https://raw.githubusercontent.com/lezhengqiuyuan/n1/main/install-32.sh
 
 chomd +x install-32.sh
 
